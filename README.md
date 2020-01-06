@@ -2,7 +2,7 @@
 
 A custom `Grant Handler` & `Grant Validator` implementation for `WSO2 API Manager`
 
-## Implementation
+## Implementation & Usage
 
 The developed custom grant expects the following to authenticate and generate access tokens
 
@@ -16,7 +16,7 @@ Given below are a set of sample values
 * location: `LK-COLOMBO`, `LK-KANDY`
 * key: `0987654321`, `1234567890`
 
-## Configuring & Deploying
+### Configuring & Deploying
 
 Use the following command to build the project
 
@@ -37,7 +37,7 @@ Copy and place the built JAR artifact inside the `<APIM>/repository/components/l
 </SupportedGrantTypes>
 ```
 
-## Test Case
+### Test Case
 
 Fire up the `WSO2 API Manager` server by navigating to `<APIM>/bin` directory and executing the following based on your OS
 
